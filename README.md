@@ -9,7 +9,7 @@ The corresponding paper is: <i>Anna Glazkova. 2023. <a href='https://www.researc
  <li>Additional data obtained with Google Translator: trainslated_train.pickle, translated_test.pickle</a></li>
  
  These files can be read by:
-```
+```python
 import pickle
 with open('translated_train.pickle', 'rb') as f:
   translated_texts = pickle.load(f)
